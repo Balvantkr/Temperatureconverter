@@ -47,7 +47,6 @@ h1{
 }
 
 input{
-    flex: 5;
     height: 60px;
     font-size: 20px;
     font-weight: 600;
@@ -59,15 +58,7 @@ input{
 }
 
 
-/* for chrome, safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button{
-    -webkit-appearance: none;
-}
-
-
 .icon{
-    flex: 1;
     height: 60px;
     line-height: 60px;
     padding: 0 5px;
@@ -99,4 +90,22 @@ input::-webkit-inner-spin-button{
 .button button:hover{
     background: #000;
     color: #fff;
+}
+
+@media screen and (max-width:1200px){
+
+    .container{
+        padding: 7px;
+        margin-bottom: 45vh;
+    }
+
+}
+
+@media screen and (max-width:600px){
+
+    .container{
+        padding: 7px;
+        margin-bottom: 20vh;
+    }
+      
 }
